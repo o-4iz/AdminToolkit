@@ -1,0 +1,28 @@
+name: AdminToolkit
+version: '1.0.3'
+main: _4iz.AdminToolkit.Main
+api-version: '1.21'
+load: STARTUP
+authors: [ _4iz ]
+commands:
+
+  admintoolkit:
+    description: Команда для проверки игрока на стороннее ПО
+    usage: §4Использование /<command> <check> <onAnyDesk | onDiscord | off | yes | no> [игрок]
+    aliases:
+      - at
+      - admintool
+    permission: admintoolkit.use
+    permission-message: §4У вас нет прав на использовании этой команды!
+  admintoolchat:
+    description: Админ-Чат
+    usage: §4Использование /<command> сообщение
+    aliases:
+      - ac
+      - achat
+    permission: admintoolchat.use
+    permission-message: §4У вас нет прав на использовании этой команды!
+permissions:
+  admintoolkit.use:
+    description: Позволяет использовать команду /admintoolkit
+    default: op

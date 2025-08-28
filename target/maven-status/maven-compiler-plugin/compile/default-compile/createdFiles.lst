@@ -1,0 +1,8 @@
+_4iz\AdminToolkit\TabCompleter\AdminChatCompleter.class
+_4iz\AdminToolkit\Listener\CheckListener.class
+_4iz\AdminToolkit\Commands\AdminChatCommand.class
+_4iz\AdminToolkit\TabCompleter\CheckTabCompleter.class
+_4iz\AdminToolkit\TabCompleter\ChatUnderReviewTabCompleter.class
+_4iz\AdminToolkit\Commands\ChatUnderReviewCommand.class
+_4iz\AdminToolkit\Commands\CheckCommand.class
+_4iz\AdminToolkit\Main.class
